@@ -1,6 +1,5 @@
 module CGio [system] {
-  header "/usr/include/glib-2.0"
-  header "/usr/lib/x86_64-linux-gnu/glib-2.0/include"
+  header "/usr/include/glib-2.0/gio/gio.h"
 
   link "gio-2.0"
   link "gobject-2.0"
